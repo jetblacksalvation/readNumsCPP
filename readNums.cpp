@@ -7,7 +7,6 @@ using namespace std;
 int main() {
     ifstream inFile;
     int nLines = 0;
-    int* numbers = 0;
     int findNumber;
     string tmp;
     cout << "File name? ";
