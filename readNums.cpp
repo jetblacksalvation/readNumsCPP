@@ -26,7 +26,7 @@ int main() {
     if (inFile.is_open()) {
         for (int i = 0; i < nLines; i++) {
            
-            if (( ((temp =inFile.get() )>= '0' && temp <'9') ? temp - '0' : -1) != -1) {
+            if (( ((temp =inFile.get() )>= '0' && temp <'9') ? true : false) != false) {
                 std::cout << temp<<std::endl;
                 if (findNumber == temp - '0') {
                     cout << findNumber << "is in the text " << endl;
